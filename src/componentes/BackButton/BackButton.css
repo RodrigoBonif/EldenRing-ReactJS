@@ -1,0 +1,14 @@
+.back {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gold;
+    color: gold;
+    border-radius: 5px;
+}
+.back:hover {
+    background-color: gold;
+    color: #121212;
+    border: none;
+}

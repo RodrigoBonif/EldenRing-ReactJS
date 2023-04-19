@@ -1,0 +1,7 @@
+.banner {
+    background-color: gold;
+    text-align: center;
+}
+.banner img {
+    max-width: 100%;
+}

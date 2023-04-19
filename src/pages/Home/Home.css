@@ -1,0 +1,38 @@
+body {
+    background-color: #121212;
+}
+.box {
+    width: 40%;
+    height: 50%;
+    padding: 50px;
+    margin: 40px auto;
+    border: 1px solid gold;
+    box-shadow: 6px 6px 10px rgba(255, 215, 0, 0.3);
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+a {
+    color: gold;
+    text-decoration: none;
+}
+.box-route {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.box-route a {
+    padding: 25px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+.box-route a:hover {
+    background-color: gold;
+    color: #121212;
+    scale: 1.2;
+}
